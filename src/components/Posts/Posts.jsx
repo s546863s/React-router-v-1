@@ -3,6 +3,7 @@ import { Link, useLoaderData, useNavigate } from 'react-router';
 
 const Posts = () => {
 
+
     const navegate = useNavigate()
 
     const posts = useLoaderData();
